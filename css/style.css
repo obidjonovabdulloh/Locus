@@ -322,6 +322,30 @@ body {
     .sect_img {
         margin-top: 20px !important; 
     }
+    .sec2_subtext {
+        text-align: center !important;
+        margin-left: 15px !important;
+    }
+    .sec2_item {
+        display: flex;
+        justify-content: space-around !important;
+    }
+    .sec2_li{
+        width: 50px !important;
+    }
+    .sec2_li1{
+        /* width: 40px !important; */
+        display: none !important;
+    }
+}
+@media (max-width: 360px) {
+    .container{
+        width: 240px;
+    }
+    .sec2_subtext {
+        text-align: center;
+    }
+
 }
 /* end responsive */
 .nav_title {
